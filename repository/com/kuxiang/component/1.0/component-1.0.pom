@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.kuxiang</groupId>
+  <artifactId>component</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+  <properties>
+    <!-- Java源代码使用的编码 -->
+    <source.encoding>utf-8</source.encoding>
+    <resource.encoding>utf-8</resource.encoding>
+    <!-- 程序输出的html代码使用的编码 -->
+    <ouput.encoding>utf-8</ouput.encoding>
+  </properties>
+  <organization>
+    <name>广东酷享商务服务有限公司</name>
+  </organization>
+
+  <distributionManagement>
+    <repository>
+      <id>kuxiang-mvn-repos</id>
+      <url>file:/d:/dev/workspaces/maven-repo/repository</url>
+    </repository>
+  </distributionManagement>
+</project>
